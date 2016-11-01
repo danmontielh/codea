@@ -1,5 +1,5 @@
 def suma(a, b)
-  "#{a} es mayor que #{b}" if a > b
+  return "#{a} es mayor que #{b}" if a > b
   "#{a} no es mayor que #{b}"
 end
 
