@@ -8,6 +8,16 @@
 "Hola".length
 
 
-a = "Olaaa"
+a[/[aeiou](.)\1/]  
 
-puts a[/[O]\0/]     
+
+
+a = "hola"
+
+a[1] = new_str
+
+a.capitalize # "Hola"
+a.chr # "h"
+a.count #lo#
+
+   
