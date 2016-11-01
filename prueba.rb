@@ -8,17 +8,17 @@
 "Hola".length
 
 
-a[/[aeiou](.)\1/]  
+"hola"[/[aeiou](.)\1/]  
 
 
 
 a = "hola"
 
-a[1] = new_str
+#"hola"[1] = new_str
 
 a.capitalize # "Hola"
 a.chr # "h"
-a.count #lo#
+a.count "lo" #lo#
 
 "hello".empty?   # false
 "".empty?        #true
@@ -29,4 +29,10 @@ a.sub(/[aeiou]/, '*')   # "h*la"
 a.gsub(/[aeiou]/, '*')   #"h*l*" 
 
 a.include? "ho" #true
+
+
+a.index('la')    # 3
+
+a.reverse #aloh
+
    
