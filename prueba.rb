@@ -20,4 +20,7 @@ a.capitalize # "Hola"
 a.chr # "h"
 a.count #lo#
 
+"hello".empty?   # false
+"".empty?        #true
+
    
