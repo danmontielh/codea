@@ -23,6 +23,10 @@ a.count #lo#
 "hello".empty?   # false
 "".empty?        #true
 
+a.sub(/[aeiou]/, '*')   # "h*la"
+
 
 a.gsub(/[aeiou]/, '*')   #"h*l*" 
+
+a.include? "ho" #true
    
