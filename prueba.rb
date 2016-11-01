@@ -35,4 +35,8 @@ a.index('la')    # 3
 
 a.reverse #aloh
 
-   
+
+"hola como estas".split
+
+"    hola    ".strip   #=> "hola"
+
