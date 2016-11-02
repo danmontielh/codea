@@ -104,19 +104,38 @@ p range(67) == "67 is between 51 and 100"
 p range(54) == "54 is between 51 and 100"
 p range(120) == "120 is above 100"
 
+
+
+def shipping(address)
+
+
+  if address.include? "Mexico"
+   "Order received"
+  else 
+    "We only ship orders to Mexico"
+  end
+
+end
+
+
+p shipping('Insurgentes Sur 8932, Alvaro Obregon, Mexico') == "Order received"
+p shipping('Geary Blvd 3320, San Francisco, Estados Unidos') == "We only ship orders to Mexico"
+
 =end
 
 
+def say_hi(name)
 
 
+  if name == "Daniel"
+  "Welcome back"
+  else "Hi, #{name}"
+  end
+end
 
-
-
-
-
-
-
-
+# Pruebas
+p say_hi('Daniel') == "Welcome back"
+p say_hi('Juan') == "Hi, Juan"
 
 
 
