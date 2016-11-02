@@ -18,5 +18,5 @@ end
 
 #test
 
-#Aquí debe ir la prueba 1
-#Aquí debe ir la prueba 2
+p caesar_cipher("hola estas", 6) == "nurg kyzgy"
+p caesar_cipher("es una maravilla", 4) == "iw yre qevezmppe"
