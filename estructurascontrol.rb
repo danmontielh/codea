@@ -1,4 +1,4 @@
-=begin
+
 def etapa(edad)
 
 case edad
@@ -121,7 +121,7 @@ end
 p shipping('Insurgentes Sur 8932, Alvaro Obregon, Mexico') == "Order received"
 p shipping('Geary Blvd 3320, San Francisco, Estados Unidos') == "We only ship orders to Mexico"
 
-=end
+
 
 
 def say_hi(name)
@@ -136,6 +136,23 @@ end
 # Pruebas
 p say_hi('Daniel') == "Welcome back"
 p say_hi('Juan') == "Hi, Juan"
+
+
+
+def error_message(name,credit_card_type, credit_card_number)
+
+ 
+if credit_card_number.length  == 15
+   "#{name}, The #{credit_card_type.upcase} Credit Card Number 'xxx-#{credit_card_number[12..14]}' You Provided is Invalid."
+
+elsif credit_card_number.length  == 16
+  "#{name}, The #{credit_card_type.upcase} Credit Card Number 'xxx-#{credit_card_number[13..15]}' You Provided is Invalid."
+  
+end
+end
+
+p error_message('Rodrigo', 'American Express', '205782460166975') == "Rodrigo, The AMERICAN EXPRESS Credit Card Number 'xxx-975' You Provided is Invalid."
+p error_message('Carla', 'Visa', '3912888888881881') == "Carla, The VISA Credit Card Number 'xxx-881' You Provided is Invalid."
 
 
 
