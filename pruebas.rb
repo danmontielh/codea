@@ -4,4 +4,4 @@ def numbers(num)
   end
 end
 
-numbers([2, 5, 7, 1, 0])
+numbers([2, 5, 7, 1, 0]) #=> 3,6,8,2,1
