@@ -13,9 +13,9 @@ def shortest (arr)
 
   end
   short_list
-  #arr.min_by { |x| x.length }
+
 end
 
 
 
-p shortest(['uno', 'dos', 'tres', 'cuatro', 'cinco']) == ["uno", "dos"]  #== ["gato"]
+p shortest(['uno', 'dos', 'tres', 'cuatro', 'cinco']) == ["uno", "dos"]  
