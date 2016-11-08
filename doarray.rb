@@ -10,11 +10,11 @@ def array_index(arr,num)
     
     arr_final.push(arr1)
     end
-  arr1 = letter
+
 
 end
 
-  arr_final
+  p arr_final
 
 end
 
