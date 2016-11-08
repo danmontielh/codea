@@ -7,22 +7,23 @@ arr_final3 = []
     letter2 = letter.split("")
     arr_final.push(letter2)
  
- end 
+  end 
 
-1.upto(num) { |x|
+    1.upto(num) do |times|
 
-arr2 = x
- arr_final2.push(arr2)
+    arr2 = times
+    arr_final2.push(arr2)
 
-}
+    end
   
-arr_final.each do |letter2|
+      arr_final.each do |letter2|
 
- arr3 = letter2 + [arr_final2]
+        arr3 = letter2 + [arr_final2]
 
- arr_final3.push(arr3)
+        arr_final3.push(arr3)
 
-end
+      end
+
 arr_final3
 end
 
