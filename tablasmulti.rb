@@ -1,9 +1,9 @@
 def multiplication_tables(number)
 
 number.times do |num|
-  num + 1
+  multi = num + 1
   for numbers in 1..10
-   fin = (num + 1) * numbers
+   fin = multi * numbers
   printf "%5s", fin
   end
   puts
