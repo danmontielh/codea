@@ -2,12 +2,12 @@ def mode(arr)
 
 mo = arr.sort
 
-if mo.select { |x| mo.count(x) > 1  } . uniq == []
+  if mo.select { |x| mo.count(x) > 1  } . uniq == []
 	 arr
-elsif mo.select { |x| mo.count(x) > 1  } . uniq == mo.select { |x| mo.count(x) > 1  } . uniq
+     elsif mo.select { |x| mo.count(x) > 1  } . uniq == mo.select { |x| mo.count(x) > 1  } . uniq
  
-  mo.select { |x| mo.count(x) > 1  } . uniq
-end
+  		mo.select { |x| mo.count(x) > 1  } . uniq
+  end
 end
  
 
