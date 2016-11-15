@@ -4,15 +4,12 @@ words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
 
 def anagrams(arr)
 arr_final = []
-hash_word = arr.each_with_object(Hash.new []) do |word,hash|
-  hash[word.chars.sort] += [word]
-end
+  hash_word = arr.each_with_object(Hash.new []) do |word,hash|
+    hash[word.chars.sort] += [word]
+  end
 
-hash_word.each do |word, find|
-
-  arr_final << find
- 
-
+  hash_word.each do |word, find|
+    arr_final << find
   end
 arr_final
 end
