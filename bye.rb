@@ -1,7 +1,6 @@
 def bye(numbers)
-list = []
-  
-numbers.map { |num|  num < 10 ? list << "Smaller" : list << num  } 
+
+  numbers.map { |num| num < 10 ? "Smaller" : num  } 
 
 end 
 #test
