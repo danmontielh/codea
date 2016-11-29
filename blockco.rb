@@ -1,8 +1,9 @@
 def numbers(list)
-list.collect do |num|
-    num * 2
+
+result = list.collect do |num|
+   num * 1
   end
-list
+result 
 end
 
 #test
